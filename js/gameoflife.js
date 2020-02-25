@@ -40,6 +40,8 @@ const printCells = (state) => {
     }
     accumulator += row.join(" ") + "\n";
   }
+  return
+  accumulator;
 };
 
 const getNeighborsOf = ([x, y]) => [
